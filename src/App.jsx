@@ -1,13 +1,6 @@
-import { feedApi } from './api'
+import ApplicationProviders from './providers/ApplicationProviders'
+import router from './router/router'
 
-function App() {
-	const { queryFn } = feedApi.useFeedQuery()
-
-	return (
-		<>
-			<button onClick={queryFn}>Click me</button>
-		</>
-	)
+export default function App() {
+	return <ApplicationProviders router={router}></ApplicationProviders>
 }
-
-export default App
