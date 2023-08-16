@@ -15,7 +15,10 @@ const serviceMap = {
 export default function getService(serviceName) {
 	const service = serviceMap[serviceName]
 
-	if (!service) throw new Error('Service not found. Make sure you passed the correct service name')
+	if (!service)
+		throw new Error(
+			'Service not found. Make sure you passed the correct service name',
+		)
 
 	return service
 }

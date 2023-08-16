@@ -9,7 +9,7 @@ class HttpService {
 		url,
 		opts = {
 			ignoreDefaultErrorHandler: false,
-		}
+		},
 	) {
 		try {
 			const response = await fetch(url, {
@@ -29,7 +29,7 @@ class HttpService {
 		body,
 		opts = {
 			ignoreDefaultErrorHandler: false,
-		}
+		},
 	) {
 		try {
 			const response = await fetch(url, {
