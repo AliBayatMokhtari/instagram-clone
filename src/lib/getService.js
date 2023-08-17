@@ -17,7 +17,7 @@ export default function getService(serviceName) {
 
 	if (!service)
 		throw new Error(
-			'Service not found. Make sure you passed the correct service name',
+			'Service not found. Make sure you passed the correct service name'
 		)
 
 	return service
