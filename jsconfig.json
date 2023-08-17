@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"lib": ["ES5", "DOM"],
+		"moduleResolution": "node",
+		"target": "ES5",
+		"checkJs": true,
+		"jsx": "react-jsx"
+	},
+	"include": ["src/**/*.js", "src/**/*.jsx"],
+	"exclude": ["node_modules"]
+}
