@@ -1,1 +1,1 @@
-export { default as feedApi } from './feed/feed.api'
+export { default as feedApi } from './feed/feed.api';

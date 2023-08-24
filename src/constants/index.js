@@ -1,1 +1,1 @@
-export { default as serviceNames } from './serviceNames'
+export { default as serviceNames } from './serviceNames';
