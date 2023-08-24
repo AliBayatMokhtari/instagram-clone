@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"baseUrl": ".",
+		"baseUrl": "./src",
 		"lib": ["ES5", "DOM"],
 		"moduleResolution": "node",
 		"target": "ES5",

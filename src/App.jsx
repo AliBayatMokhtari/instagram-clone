@@ -1,6 +1,8 @@
 import ApplicationProviders from './providers/ApplicationProviders'
 import router from './router/router'
 
-export default function App() {
+function App() {
 	return <ApplicationProviders router={router}></ApplicationProviders>
 }
+
+export { App as default }

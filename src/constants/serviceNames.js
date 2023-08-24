@@ -5,4 +5,4 @@ const serviceNames = {
 	storage: 'storage',
 }
 
-export default serviceNames
+export { serviceNames as default }

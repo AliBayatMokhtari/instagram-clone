@@ -21,4 +21,4 @@ class StorageService {
 	}
 }
 
-export default StorageService
+export { StorageService as default }

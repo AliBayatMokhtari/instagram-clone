@@ -14,4 +14,4 @@ const feedApi = withServices(({ httpService }) => {
 	}
 })
 
-export default feedApi
+export { feedApi as default }

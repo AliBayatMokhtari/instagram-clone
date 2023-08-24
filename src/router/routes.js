@@ -4,4 +4,4 @@ const ROUTES = {
 	USER_PROFILE: '/user-profile',
 }
 
-export default ROUTES
+export { ROUTES as default }

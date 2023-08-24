@@ -9,4 +9,4 @@ class HttpErrorHandler {
 	}
 }
 
-export default HttpErrorHandler
+export { HttpErrorHandler as default }

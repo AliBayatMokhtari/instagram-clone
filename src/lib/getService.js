@@ -12,7 +12,7 @@ const serviceMap = {
 	[serviceNames.storage]: storageService,
 }
 
-export default function getService(serviceName) {
+function getService(serviceName) {
 	const service = serviceMap[serviceName]
 
 	if (!service)
@@ -22,3 +22,5 @@ export default function getService(serviceName) {
 
 	return service
 }
+
+export { getService as default }

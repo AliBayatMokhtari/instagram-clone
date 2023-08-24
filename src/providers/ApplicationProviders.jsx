@@ -1,6 +1,6 @@
 import { RouterProvider } from 'react-router-dom'
 
-export default function ApplicationProviders({ children, router }) {
+function ApplicationProviders({ children, router }) {
 	return (
 		<>
 			<RouterProvider router={router} />
@@ -8,3 +8,5 @@ export default function ApplicationProviders({ children, router }) {
 		</>
 	)
 }
+
+export { ApplicationProviders as default }
